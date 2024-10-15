@@ -1,3 +1,4 @@
+<!-- Home View -->
 <script setup>
 import { useUserStore } from '@/store/UserStore'
 import { useRouter } from 'vue-router'

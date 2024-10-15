@@ -1,3 +1,4 @@
+<!-- Create User View -->
 <script setup>
 import { useUserStore } from '@/store/UserStore'
 import { reactive } from 'vue'
@@ -53,7 +54,9 @@ const handleUpdateUser = () => {
     <form class="my-4">
       <div class="group flex flex-col gap-y-4 mb-4">
         <div>
-          <label for="name" class="block mb-2 text-sm font-medium text-gray-900"
+          <label
+            for="name"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >Name:</label
           >
           <input
@@ -66,7 +69,9 @@ const handleUpdateUser = () => {
           />
         </div>
         <div>
-          <label for="name" class="block mb-2 text-sm font-medium text-gray-900"
+          <label
+            for="name"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >User Name:</label
           >
           <input
@@ -81,7 +86,7 @@ const handleUpdateUser = () => {
         <div>
           <label
             for="email"
-            class="block mb-2 text-sm font-medium text-gray-900"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >Email:</label
           >
           <input
@@ -96,7 +101,7 @@ const handleUpdateUser = () => {
         <div>
           <label
             for="phone"
-            class="block mb-2 text-sm font-medium text-gray-900"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >Phone:</label
           >
           <input
@@ -111,7 +116,7 @@ const handleUpdateUser = () => {
         <div>
           <label
             for="website"
-            class="block mb-2 text-sm font-medium text-gray-900"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >Website:
           </label>
           <input
